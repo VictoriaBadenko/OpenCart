@@ -22,7 +22,7 @@ public class RegisterPage extends BasePage {
     @FindBy(id = "input-confirm")
     private WebElement passwordConfirmationInput;
 
-    @FindBy(id = "agree")
+    @FindBy(name = "agree")
     private WebElement policy;
 
     @FindBy(xpath = ".//*[@type='submit']")
